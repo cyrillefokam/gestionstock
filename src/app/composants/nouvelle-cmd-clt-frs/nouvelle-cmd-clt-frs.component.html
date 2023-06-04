@@ -1,0 +1,96 @@
+<div class="col mb-3">
+    <div class="row-md-12">
+        <div class="col-md-12 mb-2 mt-0">
+            <h2>nouvelle commande {{origin}}</h2>
+        </div>
+        <div class="row p-10 custom-border">
+        <div class="col-md-5  custom-border-right">
+            <form>
+                <div class="mb-3">
+                  <input type="text" class="form-control"   placeholder="code commande">
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control"placeholder="Date commande">
+                </div>
+                <div class="mb-3">
+                    <select class="form-control" id="exampleFormControlSelect">
+                        <option>Selectionner un client</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                       </select>
+                  </div>
+            </form>
+        </div>
+        <div class="col-md-5 custom-border-right">
+            <div class="col mb-2">
+                <div class="row">
+                 <div class="col-md-1"><i class="fas fa-info-circle blue-color"></i></div>
+                 <div class="col-md-10">nom</div>
+          </div>
+         <div class="row">
+            <div class="col-md-1"><i class="fas fa-info-circle blue-color"></i></div>
+            <div class="col-md-10">prenom</div>
+     </div>
+     <div class="row">
+        <div class="col-md-1"><i class="fas fa-phone-alt blue-color"></i></div>
+        <div class="col-md-10">6 56 31 16 96</div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"><i class="fas fa-hourglass-half blue-color"></i></div>
+        <div class="col-md-10">En preparation</div>
+    </div>
+       </div>
+        </div>
+        <div class="col-md-2 mb-12">
+            <img src="assets/product.png" class="rounded-circle" width="150px" height="150px"/>  
+        </div>
+                </div>
+                    <div class="row mt-0 p-3 custom-border">
+                       <form>
+                        <div class="row g-3">
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="code article">
+                            </div>
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="Quantite">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Prix unitaire">
+                              </div>
+                              <div class="col">
+                               <button type="button" class="btn btn-success"><i class="fas fa-plus"></i></button>
+                              </div>
+                          </div>
+                        </form> 
+                    </div>
+                    <div class="row mt-0 p-3 custom-border" style=" max-height:300px; overflow-y:scroll">
+                        <app-detail-cmd></app-detail-cmd>
+                        <app-detail-cmd></app-detail-cmd>
+                        <app-detail-cmd></app-detail-cmd>
+                        <app-detail-cmd></app-detail-cmd>
+                        <app-detail-cmd></app-detail-cmd>
+                        <app-detail-cmd></app-detail-cmd>
+                        <app-detail-cmd></app-detail-cmd>
+                        <app-detail-cmd></app-detail-cmd>
+                        <app-detail-cmd></app-detail-cmd>
+                        <app-detail-cmd></app-detail-cmd>
+                        <app-detail-cmd></app-detail-cmd>
+                    </div>
+                    <div class="row mt-0 p-3 custom-border ketext">
+                        <h3>Total de la commande:135,9</h3>
+                        </div>
+                      </div>
+
+                        <div class="col-md-12 align mt-0 ">
+                       <button type="button" class="btn btn-danger mr-8">
+                        <i class="fas fa-ban"></i>&nbsp;
+                        Annuler</button>
+                        <button type="button" class="btn btn-primary">
+                <i class="fas fa-save"></i>&nbsp;
+                Enregistrer</button>
+            </div>
+        </div>
+            
